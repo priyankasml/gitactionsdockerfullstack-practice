@@ -1,0 +1,68 @@
+2025-10-23 11:29:41,123 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-10-23 11:31:52,276 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.klef.dev:HOTELMANGEMENTAPI-SRPINGBOOT:0.0.1-SNAPSHOT @ D:\DEVOPS-EXAMPRACTICE\HOTELMANGEMENTAPI-SRPINGBOOT\pom.xml.
+2025-10-23 11:31:53,360 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HOTELMANGEMENTAPI-SRPINGBOOT/src/main/java
+2025-10-23 11:31:53,361 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HOTELMANGEMENTAPI-SRPINGBOOT/src/main/resources
+2025-10-23 11:31:53,364 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HOTELMANGEMENTAPI-SRPINGBOOT/src/main/resources
+2025-10-23 11:31:53,366 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HOTELMANGEMENTAPI-SRPINGBOOT/src/test/java
+2025-10-23 11:31:53,367 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HOTELMANGEMENTAPI-SRPINGBOOT/src/test/resources
+2025-10-23 11:31:55,238 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2025-10-23 11:31:55,242 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-10-23 11:31:55,548 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.klef.dev:HOTELMANGEMENTAPI-SRPINGBOOT:0.0.1-SNAPSHOT @ D:\DEVOPS-EXAMPRACTICE\HOTELMANGEMENTAPI-SRPINGBOOT\pom.xml.
+2025-10-23 11:31:56,058 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HOTELMANGEMENTAPI-SRPINGBOOT/src/main/java
+2025-10-23 11:31:56,058 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HOTELMANGEMENTAPI-SRPINGBOOT/src/main/resources
+2025-10-23 11:31:56,060 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HOTELMANGEMENTAPI-SRPINGBOOT/src/main/resources
+2025-10-23 11:31:56,060 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HOTELMANGEMENTAPI-SRPINGBOOT/src/test/java
+2025-10-23 11:31:56,060 [Worker-5: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HOTELMANGEMENTAPI-SRPINGBOOT/src/test/resources
+2025-10-23 11:31:57,694 [Worker-5: Import Getting Started Content] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for HOTELMANGEMENTAPI-SRPINGBOOT
+2025-10-23 11:31:57,711 [Worker-5: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 1.00 sec 
+2025-10-23 11:31:58,512 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-23 11:31:58,544 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-23 11:31:58,554 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\DEVOPS-EXAMPRACTICE\HOTELMANGEMENTAPI-SRPINGBOOT\src\test\resources
+2025-10-23 11:31:58,555 [Worker-28: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of HOTELMANGEMENTAPI-SRPINGBOOT
+2025-10-23 11:31:58,557 [Worker-28: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for HOTELMANGEMENTAPI-SRPINGBOOT
+2025-10-23 11:33:20,873 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-23 11:33:20,879 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-23 11:33:20,881 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\DEVOPS-EXAMPRACTICE\HOTELMANGEMENTAPI-SRPINGBOOT\src\test\resources
+2025-10-23 11:33:43,490 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-23 11:33:43,493 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-23 11:33:43,497 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\DEVOPS-EXAMPRACTICE\HOTELMANGEMENTAPI-SRPINGBOOT\src\test\resources
+2025-10-23 11:35:24,336 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-23 11:35:24,336 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-23 11:35:24,336 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\DEVOPS-EXAMPRACTICE\HOTELMANGEMENTAPI-SRPINGBOOT\src\test\resources
+2025-10-23 11:35:43,169 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-23 11:35:43,188 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-23 11:35:43,196 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\DEVOPS-EXAMPRACTICE\HOTELMANGEMENTAPI-SRPINGBOOT\src\test\resources
+2025-10-23 11:36:00,710 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-23 11:36:00,713 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-23 11:36:00,716 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\DEVOPS-EXAMPRACTICE\HOTELMANGEMENTAPI-SRPINGBOOT\src\test\resources
+2025-10-23 11:36:07,730 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-23 11:36:07,733 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-23 11:36:07,735 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\DEVOPS-EXAMPRACTICE\HOTELMANGEMENTAPI-SRPINGBOOT\src\test\resources
+2025-10-23 11:36:41,941 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-23 11:36:41,941 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-23 11:36:41,947 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\DEVOPS-EXAMPRACTICE\HOTELMANGEMENTAPI-SRPINGBOOT\src\test\resources
+2025-10-23 11:36:51,436 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-23 11:36:51,452 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-23 11:36:51,452 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\DEVOPS-EXAMPRACTICE\HOTELMANGEMENTAPI-SRPINGBOOT\src\test\resources
+2025-10-23 11:37:18,542 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-23 11:37:18,545 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-23 11:37:18,547 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\DEVOPS-EXAMPRACTICE\HOTELMANGEMENTAPI-SRPINGBOOT\src\test\resources
+2025-10-23 11:37:45,446 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-23 11:37:45,464 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-23 11:37:45,469 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\DEVOPS-EXAMPRACTICE\HOTELMANGEMENTAPI-SRPINGBOOT\src\test\resources
+2025-10-23 11:37:57,624 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-23 11:37:57,627 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-23 11:37:57,629 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\DEVOPS-EXAMPRACTICE\HOTELMANGEMENTAPI-SRPINGBOOT\src\test\resources
+2025-10-23 11:38:45,475 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-23 11:38:45,478 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-23 11:38:45,480 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\DEVOPS-EXAMPRACTICE\HOTELMANGEMENTAPI-SRPINGBOOT\src\test\resources
+2025-10-23 11:39:35,675 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-23 11:39:35,680 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-23 11:39:35,684 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\DEVOPS-EXAMPRACTICE\HOTELMANGEMENTAPI-SRPINGBOOT\src\test\resources
+2025-10-23 11:40:24,196 [Worker-33: Launching HOTELMANGEMENTAPI-SRPINGBOOT - HotelmangementapiSrpingbootApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-23 11:40:24,200 [Worker-33: Launching HOTELMANGEMENTAPI-SRPINGBOOT - HotelmangementapiSrpingbootApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-23 11:40:24,204 [Worker-33: Launching HOTELMANGEMENTAPI-SRPINGBOOT - HotelmangementapiSrpingbootApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\DEVOPS-EXAMPRACTICE\HOTELMANGEMENTAPI-SRPINGBOOT\src\test\resources
+2025-10-23 11:42:57,275 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-23 11:44:27,889 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-23 11:44:27,918 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-23 11:44:27,927 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\DEVOPS-EXAMPRACTICE\HOTELMANGEMENTAPI-SRPINGBOOT\src\test\resources
