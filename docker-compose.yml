@@ -1,4 +1,4 @@
-version: "3.9"
+
 
 services:
   mysqldb:
@@ -17,19 +17,23 @@ services:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-pdocker"]
       interval: 10s
       timeout: 5s
-      retries: 5
+      retries: 10
 
   backend:
-    image: priyankasml/hotel-backend:latest
+    build: ./backend
     container_name: hotel-backend
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysqldb:3306/hoteldb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: docker
     ports:
       - "2080:2080"
     depends_on:
       mysqldb:
         condition: service_healthy
-    restart: on-failure
     networks:
       - hotel-net
+    restart: on-failure
 
   frontend:
     image: priyankasml/hotel-frontend:latest
@@ -38,9 +42,9 @@ services:
       - "3005:80"
     depends_on:
       - backend
-    restart: on-failure
     networks:
       - hotel-net
+    restart: on-failure
 
 volumes:
   hotel_mysql_data:

@@ -2,9 +2,9 @@
 FROM eclipse-temurin:21-jdk AS builder
 
 WORKDIR /app
-COPY mvnw . 
+COPY mvnw .
 COPY .mvn/ .mvn
-COPY pom.xml . 
+COPY pom.xml .
 COPY src ./src
 
 RUN chmod +x mvnw
@@ -15,5 +15,9 @@ FROM eclipse-temurin:21-jdk
 WORKDIR /app
 COPY --from=builder /app/target/*.jar app.jar
 
+# Wait-for-MySQL script
+COPY wait-for-it.sh /wait-for-it.sh
+RUN chmod +x /wait-for-it.sh
+
 EXPOSE 2080
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["/wait-for-it.sh", "mysqldb:3306", "--", "java", "-jar", "app.jar"]
