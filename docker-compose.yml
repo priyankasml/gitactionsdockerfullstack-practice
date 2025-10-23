@@ -1,0 +1,44 @@
+version: "3.9"
+
+services:
+  mysqldb:
+    image: mysql:8
+    container_name: hotel-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: docker
+      MYSQL_DATABASE: hoteldb
+    ports:
+      - "3310:3306"
+    volumes:
+      - hotel_mysql_data:/var/lib/mysql
+    networks:
+      - hotel-springboot-mysql-net
+
+  backend:
+    image: priyankasml/hotel-backend:latest
+    container_name: hotel-backend
+    ports:
+      - "2080:2000"
+    depends_on:
+      - mysqldb
+    restart: on-failure
+    networks:
+      - hotel-springboot-mysql-net
+
+  frontend:
+    image: priyankasml/hotel-frontend:latest
+    container_name: hotel-frontend
+    ports:
+      - "3005:80"
+    depends_on:
+      - backend
+    restart: on-failure
+    networks:
+      - hotel-springboot-mysql-net
+
+volumes:
+  hotel_mysql_data:
+
+networks:
+  hotel-springboot-mysql-net:
+
