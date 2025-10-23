@@ -1,4 +1,4 @@
-version: "3.9"
+
 
 services:
   mysqldb:
@@ -18,7 +18,7 @@ services:
     image: priyankasml/hotel-backend:latest
     container_name: hotel-backend
     ports:
-      - "2080:2000"
+      - "2080:2000"       # host:container
     depends_on:
       - mysqldb
     restart: on-failure
@@ -29,7 +29,7 @@ services:
     image: priyankasml/hotel-frontend:latest
     container_name: hotel-frontend
     ports:
-      - "3005:80"
+      - "3005:80"         # host:container
     depends_on:
       - backend
     restart: on-failure
