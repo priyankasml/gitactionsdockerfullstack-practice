@@ -7,7 +7,6 @@ COPY .mvn/ .mvn
 COPY pom.xml . 
 COPY src ./src
 
-# Make mvnw executable
 RUN chmod +x mvnw
 RUN ./mvnw clean package -DskipTests
 
@@ -15,5 +14,6 @@ RUN ./mvnw clean package -DskipTests
 FROM eclipse-temurin:21-jdk
 WORKDIR /app
 COPY --from=builder /app/target/*.jar app.jar
+
 EXPOSE 2080
 ENTRYPOINT ["java", "-jar", "app.jar"]
