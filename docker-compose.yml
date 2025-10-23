@@ -13,6 +13,11 @@ services:
       - hotel_mysql_data:/var/lib/mysql
     networks:
       - hotel-net
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
   backend:
     image: priyankasml/hotel-backend:latest
@@ -20,7 +25,8 @@ services:
     ports:
       - "2080:2080"
     depends_on:
-      - mysqldb
+      mysqldb:
+        condition: service_healthy
     restart: on-failure
     networks:
       - hotel-net
