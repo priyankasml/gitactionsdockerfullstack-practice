@@ -15,5 +15,5 @@ RUN ./mvnw clean package -DskipTests
 FROM eclipse-temurin:21-jdk
 WORKDIR /app
 COPY --from=builder /app/target/*.jar app.jar
-EXPOSE 2000
+EXPOSE 2080
 ENTRYPOINT ["java", "-jar", "app.jar"]
