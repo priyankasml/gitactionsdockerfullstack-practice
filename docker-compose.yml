@@ -41,4 +41,3 @@ volumes:
 
 networks:
   hotel-springboot-mysql-net:
-
