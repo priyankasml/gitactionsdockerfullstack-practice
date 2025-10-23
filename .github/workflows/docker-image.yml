@@ -11,35 +11,30 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repository
       - name: Checkout source code
         uses: actions/checkout@v4
 
-      # 2️⃣ Setup Docker Buildx
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-      # 3️⃣ Login to Docker Hub
       - name: Log in to Docker Hub
         uses: docker/login-action@v3
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      # 4️⃣ Build and push backend image
       - name: Build and push backend image
         uses: docker/build-push-action@v5
         with:
           context: ./HOTELMANGEMENTAPI-SPRINGBOOT
           file: ./HOTELMANGEMENTAPI-SPRINGBOOT/backend.Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/hotel-backend:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME || 'priyankasml' }}/hotel-backend:latest
 
-      # 5️⃣ Build and push frontend image
       - name: Build and push frontend image
         uses: docker/build-push-action@v5
         with:
           context: ./HOTELMANGEMENTAPI-REACT
           file: ./HOTELMANGEMENTAPI-REACT/frontend.Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/hotel-frontend:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME || 'priyankasml' }}/hotel-frontend:latest
